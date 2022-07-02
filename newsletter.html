@@ -16,6 +16,34 @@
                 </ul>
             </nav>
         </div>
-        <div class="content-container"></div>
+        <div class="content-container">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Newsletter Sign-up</legend>
+
+                    <label for="firstName">First Name:</label>
+                    <input id="firstName" type="text" name="first_name">
+
+                    <label for="lastName">Last Name:</label>
+                    <input id="lastName" type="text" name="last_name">
+
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email_address">
+
+                    <p>What type of Minecraft content are you interested in?</p>
+                    <input id="majorReleases" type="checkbox" name="interest" value="major_releases">
+                    <label for="majorReleases">Major Minecraft Releases</label>
+                    <input id="snapshotReleases" type="checkbox" name="interest" value="snapshot_releases">
+                    <label for="snapshotReleases">Snapshot Releases</label>
+                    <input id="redstoneTips&Tricks" type="checkbox" name="interest" value="redstone_tips">
+                    <label for="redstoneTips&Tricks">Redstone Tips & Tricks</label>
+
+                    <label for="additionalInterest">Tell us if there is anything more specific you would like to see?</label>
+                    <textarea id="additionalInterest" name="additional_interest" rows="15" cols="80"></textarea>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
     </body>
 </html>
