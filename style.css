@@ -46,6 +46,7 @@ p {
 
 .first-night-instruction li {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
 }
 
 .instruction-paragraph {
@@ -65,4 +66,9 @@ p {
 }
 .instruction-image figcaption {
     text-align: center;
+}
+
+.closing-paragraph{
+    text-align: center;
+    font-weight: bold;
 }
