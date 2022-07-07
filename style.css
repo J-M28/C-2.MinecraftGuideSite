@@ -8,6 +8,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.content-container{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -31,4 +36,33 @@ p {
 
 .flex-break {
     width: 100%;
+}
+
+/* Quick Start Guide Page */
+.world-generation-instruction, .first-night-instruction {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-night-instruction li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.instruction-paragraph {
+    width: 50%;
+}
+
+.instruction-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+}
+
+.instruction-image img {
+    height: 25rem;
+}
+.instruction-image figcaption {
+    text-align: center;
 }
