@@ -73,6 +73,11 @@ p {
     font-weight: bold;
 }
 
+/* Resources Page */
+.resource-link {
+    font-size: 1.5rem;
+}
+
 /* About Page */
 #about-content-container {
     display: flex;
