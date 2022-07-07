@@ -2,6 +2,10 @@
 <html>
     <head>
         <title>The All-in-One Minecraft Guide</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style.css"
     </head>
     <body>
         <div class="header-container">
@@ -29,17 +33,21 @@
                     leads you.
                 </p>
             </article>
-            <article>
+            <article class="world-generation-instruction">
                 <header>
                     <h2>Generating the World</h2>
                 </header>
-                <p>
-                    Generate a world by clicking 'singleplayer' on the main menu. There are
-                    many options to tweak your world. For this tutorial, select survival
-                    and use the default settings.
-                </p>
-                <figure>
+                <div class="flex-break"></div>
+                <div class="instruction-paragraph">
+                    <p>
+                        Generate a world by clicking 'singleplayer' on the main menu. There are
+                        many options to tweak your world. For this tutorial, select survival
+                        and use the default settings.
+                    </p>
+                </div>
+                <figure class="instruction-image">
                     <img alt="Minecraft singleplayer world generation menu" src="/images/mc-singleplayer-world-generation.png">
+                    <div class="flex-break"></div>
                     <figcaption>
                         <em>
                             This guide will be done in a singleplayer world. Version
@@ -60,115 +68,197 @@
                 <ol>
                     <div class="first-night-instruction">
                         <li>Gather wood</li>
-                        <p>
-                            Every Minecraft adventure starts the same, you begin by punching wood (yes punching...),
-                            there is no need to worry about the tree falling over as the wood blocks will float!
-                            Gather about 10 - 15 logs of any kind that are nearby!
-                        </p>
-                        <p>
-                            HOLD down the LEFT MOUSE BUTTON when facing a wooden block to begin "mining" the block. It will
-                            drop the item and you can move you character ('W' for forward movement, 'A' for leftward movement,
-                            'D' for rightward movement, and 'S' for backward movement). These movement and mining
-                            controls will stay the same throughout the game, so it is important you understand
-                            and remember these basic controls!
-                        </p>
-                        <img alt="Punching a tree in Minecraft" src="images/gather-wood.png">
-                    </div>
+                        <div class="flex-break"></div>
+                        <div class="instruction-paragraph">
+                            <p>
+                                Every Minecraft adventure starts the same, you begin by punching wood (yes punching...),
+                                there is no need to worry about the tree falling over as the wood blocks will float!
+                                Gather about 10 - 15 logs of any kind that are nearby!
+                            </p>
+                            <div class="flex-break"></div>
+                            <p>
+                                HOLD down the LEFT MOUSE BUTTON when facing a wooden block to begin "mining" the block. It will
+                                drop the item and you can move you character ('W' for forward movement, 'A' for leftward movement,
+                                'D' for rightward movement, and 'S' for backward movement). These movement and mining
+                                controls will stay the same throughout the game, so it is important you understand
+                                and remember these basic controls!
+                            </p>
+                        </div>
+                        <figure class="instruction-image">
+                            <img alt="Punching a tree in Minecraft" src="images/gather-wood.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Hold the LMB to "mine" the log from the tree</figcaption>
+                            <div class="flex-break"></div>
+                        </figure>
                     <div class="first-night-instruction">
                         <li>Craft the crafting table and a wooden pickaxe</li>
-                        <p>
-                            You will need to craft a crafting table if you want to craft more advanced items beyond
-                            the crafting table itself and a few wood items. Open your inventory (by default the 'E' key)
-                            then place AT LEAST one wood log in a crafting grid (click the item
-                            with the LEFT MOUSE BUTTON and drag to the crafting grid). You can then craft 4 wood planks.
-                        </p>
-                        <img alt="Crafting recipe for wooden planks" src="images/craft-wood-plank.png">
-                        <p>
-                            Take your wooden planks and fill the crafting grid completely. Congratulations you have crafted
-                            the crafting table!
-                        </p>
-                        <img alt="Crafting recipe for the crafting table" src="images/craft-crafting-table.png">
-                        <img alt="Placing the crafting table on the hotbar" src="images/hotbar.png">
-                        <p>
-                            To use a block, drop the block onto your hotbar (the row of slots at the bottom of the
-                            inventory seperated from the main grid). Close your inventory (by default the 'E' key).
-                            Depending on the context, if you highlight over the item in your hotbar and click the
-                            RIGHT MOUSE BUTTON you will place the block down. If you are facing an INTERACTIVE block
-                            (like a chest, crafting table, or furnace) you will interact with the block instead.
-                        </p>
-                        <p>
-                            Crafting items require that you arrange the ingredients in a shape resembling the final product.
-                            Place down the crafting table, then face the crafting table and interact with it.
-                            Begin by placing TWO wood PLANKS atop of eachother to craft sticks. Then place the sticks
-                            and additional wooden planks in the shape of a 'T'. It looks similar to a pickaxe!
-                        </p>
-                        <img alt="Crafting recipe for a wooden pickaxe" src="images/craft-wooden-pickaxe.png">
+                        <div class="flex-break"></div>
+                        <div class="instruction-paragraph">
+                            <p>
+                                You will need to craft a crafting table if you want to craft more advanced items beyond
+                                the crafting table itself and a few wood items. Open your inventory (by default the 'E' key)
+                                then place AT LEAST one wood log in a crafting grid (click the item
+                                with the LEFT MOUSE BUTTON and drag to the crafting grid). You can then craft 4 wood planks.
+                            </p>
+                            <p>
+                                Take your wooden planks and fill the crafting grid completely. Congratulations you have crafted
+                                the crafting table!
+                            </p>
+                            <p>
+                                To use a block, drop the block onto your hotbar (the row of slots at the bottom of the
+                                inventory seperated from the main grid). Close your inventory (by default the 'E' key).
+                                Depending on the context, if you highlight over the item in your hotbar and click the
+                                RIGHT MOUSE BUTTON you will place the block down. If you are facing an INTERACTIVE block
+                                (like a chest, crafting table, or furnace) you will interact with the block instead.
+                            </p>
+                            <p>
+                                Crafting items require that you arrange the ingredients in a shape resembling the final product.
+                                Place down the crafting table, then face the crafting table and interact with it.
+                                Begin by placing TWO wood PLANKS atop of eachother to craft sticks. Then place the sticks
+                                and additional wooden planks in the shape of a 'T'. It looks similar to a pickaxe!
+                            </p>
+                        </div>
+                        <figure class="instruction-image">
+                            <img alt="Crafting recipe for wooden planks" src="images/craft-wood-plank.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Place a wooden log into the crafting grid to craft a wooden plank</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Crafting recipe for the crafting table" src="images/craft-crafting-table.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Place FOUR wooden planks into the crafting grid for a crafting table</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Placing the crafting table on the hotbar" src="images/hotbar.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Place the crafting table into your hotbar so that you can place it down</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Crafting recipe for a wooden pickaxe" src="images/craft-wooden-pickaxe.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Interact with the crafting grid to make a wooden pickaxe</figcaption>
+                            <div class="flex-break"></div>
+                        </figure>
                     </div>
                     <div class="first-night-instruction">
                         <li>Craft stone tools and a furnace</li>
-                        <p>
-                            Look for an open cave OR simply dig down with anything until you reach stone blocks.
-                            Take out that trusty wooden pickaxe you crafted and begin mining the
-                            stone blocks. Aim for roughly 20 - 30 cobblestone blocks!
-                        </p>
-                        <img alt="Mining cobblestone in Minecraft" src="images/mine-stone.png">
-                        <p>
-                            Once you have collected enough cobblestone blocks, head back up to the surface and
-                            follow the recipes shown to craft a set of stone tools! After you should have a stone sword, stone
-                            pickaxe, stone shovel, and stone axe.
-                        </p>
-                        <img alt="Crafting recipe for a stone sword" src="images/craft-stone-sword.png">
-                        <img alt="Crafting recipe for a stone pickaxe" src="images/craft-stone-pickaxe.png">
-                        <img alt="Crafting recipe for a stone shovel" src="images/craft-stone-shovel.png">
-                        <img alt="Crafting recipe for a stone axe" src="images/craft-stone-axe.png">
-                        <p>
-                            Take 8 cobblestone blocks and form a "donut" in the crafting grid to create a furnace, the crafting
-                            table and the furnace are the two foundational blocks to progressing in the game!
-                        </p>
-                        <img alt="Crafting recipe for a furnace" src="images/craft-furnace.png">
-                        <img alt="Placing crafting table and furance beside eachother" src="images/furnace&table.png">
+                        <div class="flex-break"></div>
+                        <div class="instruction-paragraph">
+                            <p>
+                                Look for an open cave OR simply dig down with anything until you reach stone blocks.
+                                Take out that trusty wooden pickaxe you crafted and begin mining the
+                                stone blocks. Aim for roughly 20 - 30 cobblestone blocks!
+                            </p>
+                            <p>
+                                Once you have collected enough cobblestone blocks, head back up to the surface and
+                                follow the recipes shown to craft a set of stone tools! After you should have a stone sword, stone
+                                pickaxe, stone shovel, and stone axe.
+                            </p>
+                            <p>
+                                Take 8 cobblestone blocks and form a "donut" in the crafting grid to create a furnace, the crafting
+                                table and the furnace are the two foundational blocks to progressing in the game!
+                            </p>
+                        </div>
+                        <figure class="instruction-image">
+                            <img alt="Mining cobblestone in Minecraft" src="images/mine-stone.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Mine stone blocks to acquire cobblestone</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Crafting recipe for a stone sword" src="images/craft-stone-sword.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Crafting recipe for a stone sword</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Crafting recipe for a stone pickaxe" src="images/craft-stone-pickaxe.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Crafting recipe for a stone pickaxe</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Crafting recipe for a stone shovel" src="images/craft-stone-shovel.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Crafting recipe for a stone shovel</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Crafting recipe for a stone axe" src="images/craft-stone-axe.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Crafting recipe for a stone axe</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Crafting recipe for a furnace" src="images/craft-furnace.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Crafting recipe for a furnace</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Placing crafting table and furance beside eachother" src="images/furnace&table.png">
+                            <div class="flex-break"></div>
+                            <figcaption>The crafting table and furance are both essential blocks</figcaption>
+                            <div class="flex-break"></div>
+                        </figure>
                     </div>
                     <div class="first-night-instruction">
                         <li>Hunt for food</li>
-                        <p>
-                            You will need a source of food! Look for any animals nearby and hunt them with your stone sword, they
-                            will drop food items and may drop additional blocks (for example, chickens will drop feathers and sheep
-                            will drop wool, etc)
-                        </p>
-                        <img alt="Hunting animals for food" src="images/hunt-food.png">
-                        <p>
-                            You will need to also cook this food to get the most out them. Interact with your furnace
-                            and place the food item on the topmost slot and a source of fuel (either a wood plank, log or coal)
-                            on the bottommost slot. Your food will begin cooking, once fully cooked add the item into your hotbar
-                            and eat it holding the RIGHT MOUSE BUTTON.
-                        </p>
-                        <img alt="Cooking mutton on a furnace" src="images/cook-food.png">
+                        <div class="flex-break"></div>
+                        <div class="instruction-paragraph">
+                            <p>
+                                You will need a source of food! Look for any animals nearby and hunt them with your stone sword, they
+                                will drop food items and may drop additional blocks (for example, chickens will drop feathers and sheep
+                                will drop wool, etc)
+                            </p>
+                            <p>
+                                You will need to also cook this food to get the most out them. Interact with your furnace
+                                and place the food item on the topmost slot and a source of fuel (either a wood plank, log or coal)
+                                on the bottommost slot. Your food will begin cooking, once fully cooked add the item into your hotbar
+                                and eat it holding the RIGHT MOUSE BUTTON.
+                            </p>
+                        </div>
+                        <figure class="instruction-image">
+                            <img alt="Hunting animals for food" src="images/hunt-food.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Cows, sheeps, pigs and chickens are great early food sources</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Cooking mutton on a furnace" src="images/cook-food.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Cooking your food will let you restore more hunger</figcaption>
+                            <div class="flex-break"></div>
+                        </figure>
                     </div>
                     <div class="first-night-instruction">
                         <li>Find sheep and gather wool</li>
-                        <p>
-                            The night presents many dangerous creatures that want to hurt you! It is a good idea to skip the night! Begin
-                            looking for sheep and hunting them down, you will need THREE wool blocks, if it is almost night you
-                            can immediately skip to the next step and reattempt this task the next minecraft day!
-                        </p>
-                        <img alt="A herd of sheep in the plains biome" src="images/sheep.png">
+                        <div class="flex-break"></div>
+                        <div class="instruction-paragraph">
+                            <p>
+                                The night presents many dangerous creatures that want to hurt you! It is a good idea to skip the night! Begin
+                                looking for sheep and hunting them down, you will need THREE wool blocks, if it is almost night you
+                                can immediately skip to the next step and reattempt this task the next minecraft day!
+                            </p>
+                        </div>
+                        <figure class="instruction-image">
+                            <img alt="A herd of sheep in the plains biome" src="images/sheep.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Sheep are especially important as they drop wool for beds</figcaption>
+                            <div class="flex-break"></div>
+                        </figure>
                     </div>
                     <div class="first-night-instruction">
                         <li>Craft a bed and create a home</li>
-                        <p>
-                            If you have enough wool blocks, follow the recipe below to craft your bed! Place it down somewhere, this will
-                            be where you respawn whenever you health bar reaches zero (remember to interact with it to set it as your spawnpoint).
-                        </p>
-                        <img alt="Crafting recipe for a bed" src="images/craft-bed.png">
-                        <p>
-                            Immediately create a box by either digging it out the wall of a mountain or shoveling dirt and building the box.
-                        </p>
-                        <p>
-                            Leave a two block vertical gap, this will be where you place your door. Follow the crafting recipe below to create a
-                            door block and place it down to fill the gap.
-                        </p>
-                        <img alt="Crafting recipe for a door" src="images/craft-door.png">
-                        <img alt="Placing down a door at the entrance of my shelter" src="images/place-door.png">
+                        <div class="flex-break"></div>
+                        <div class="instruction-paragraph">
+                            <p>
+                                If you have enough wool blocks, follow the recipe below to craft your bed! Place it down somewhere, this will
+                                be where you respawn whenever you health bar reaches zero (remember to interact with it to set it as your spawnpoint).
+                            </p>
+                            <p>Immediately create a box by either digging it out the wall of a mountain or shoveling dirt and building the box.</p>
+                            <p>
+                                Leave a two block vertical gap, this will be where you place your door. Follow the crafting recipe below to create a
+                                door block and place it down to fill the gap.
+                            </p>
+                        </div>
+                        <figure class="instruction-image">
+                            <img alt="Crafting recipe for a bed" src="images/craft-bed.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Crafting recipe for a bed</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Crafting recipe for a door" src="images/craft-door.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Crafting recipe for a door</figcaption>
+                            <div class="flex-break"></div>
+                            <img alt="Placing down a door at the entrance of my shelter" src="images/place-door.png">
+                            <div class="flex-break"></div>
+                            <figcaption>Place a wooden door to allow easier entrace to your house</figcaption>
+                            <div class="flex-break"></div>
+                        </figure>
                     </div>
                 </ol>
                 <p>
