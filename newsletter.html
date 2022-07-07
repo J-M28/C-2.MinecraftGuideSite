@@ -2,8 +2,12 @@
 <html>
     <head>
         <title>All-in-One Minecraft Guide: Newsletter</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
-    <body>
+    <body id="form-page">
         <div class="header-container">
             <h1>The All-in-One Minecraft Guide</h1>
             <nav>
@@ -16,34 +20,48 @@
                 </ul>
             </nav>
         </div>
-        <div class="content-container">
-            <form action="" method="post">
-                <fieldset>
+        <div id="form-content-container" class="content-container">
+            <form class="newsletter-form" action="" method="post">
+                <fieldset class="newsletter-fieldset">
                     <legend>Newsletter Sign-up</legend>
-
                     <label for="firstName">First Name:</label>
-                    <input id="firstName" type="text" name="first_name">
+                    <input class="text-input" id="firstName" type="text" name="first_name">
 
+                    <div class="flex-break"></div>
                     <label for="lastName">Last Name:</label>
-                    <input id="lastName" type="text" name="last_name">
+                    <input class="text-input" id="lastName" type="text" name="last_name">
 
+                    <div class="flex-break"></div>
                     <label for="email">Email:</label>
-                    <input id="email" type="email" name="email_address">
+                    <input class="text-input" id="email" type="email" name="email_address">
 
+                    <div class="flex-break"></div>
                     <p>What type of Minecraft content are you interested in?</p>
+                    <div class="flex-break"></div>
                     <input id="majorReleases" type="checkbox" name="interest" value="major_releases">
                     <label for="majorReleases">Major Minecraft Releases</label>
+                    <div class="flex-break"></div>
                     <input id="snapshotReleases" type="checkbox" name="interest" value="snapshot_releases">
                     <label for="snapshotReleases">Snapshot Releases</label>
+                    <div class="flex-break"></div>
                     <input id="redstoneTips&Tricks" type="checkbox" name="interest" value="redstone_tips">
                     <label for="redstoneTips&Tricks">Redstone Tips & Tricks</label>
 
-                    <label for="additionalInterest">Tell us if there is anything more specific you would like to see?</label>
+                    <div class="flex-break"></div>
+                    <label class="label-under-checkbox"for="additionalInterest">Tell us if there is anything more specific you would like to see?</label>
+                    <div class="flex-break"></div>
                     <textarea id="additionalInterest" name="additional_interest" rows="15" cols="80"></textarea>
 
-                    <button type="submit">Submit</button>
+                    <div class="flex-break"></div>
+                    <div class="form-footer">
+                        <button type="submit">Submit</button>
+                    </div>
                 </fieldset>
             </form>
         </div>
+        <div class="footer-container">
+            <footer><strong>This site is a capstone project, this newsletter does NOT exist</strong></footer>
+        </div>
+
     </body>
 </html>

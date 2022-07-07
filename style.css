@@ -73,6 +73,64 @@ p {
     font-weight: bold;
 }
 
+/* Newsletter Page*/
+#form-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#form-content-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+}
+
+.newsletter-fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.newsletter-fieldset legend {
+    font-size: 1.75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.newsletter-fieldset label {
+    font-size: 1.25rem;
+}
+
+.text-input {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    width: 80%;
+}
+
+.label-under-checkbox {
+    margin-top: 3rem;
+}
+
+.form-footer {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-footer button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
 /* Resources Page */
 .resource-link {
     font-size: 1.5rem;
