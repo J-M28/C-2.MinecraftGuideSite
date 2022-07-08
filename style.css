@@ -169,6 +169,8 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
+    border: solid 0.75rem #725AC1;
+    box-shadow: 0rem 0.5rem 2rem black;
 }
 
 .newsletter-fieldset legend {
