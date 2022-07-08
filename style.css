@@ -8,30 +8,95 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.content-container{
-    padding-left: 5rem;
-    padding-right: 5rem;
+body {
+    margin: 0;
 }
+
 
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+/* Site Heading */
+h1 {
+    background-color: #725AC1;
+    color: white;
+    padding: 1.5rem 1rem;
+    margin: 0;
+}
+
+/* Paragraph titles */
+h2 {
+    display: inline-block;
+    color: white;
+    background-color: #725AC1;
+    padding: 0.25rem;
+    box-shadow: 0rem 0.5rem 1rem black;
+
+}
+
+/* Site Navigation Bar*/
+.header-container nav {
+    background-color: #242038;
+    box-shadow: 1rem 1rem 5rem black;
+    margin-bottom: 4rem;
+}
+
 .header-container nav ul {
     display: flex;
     justify-content: flex-end;
-    font-size: 1.4rem;
-    padding: 1.5rem 0rem;
+    font-size: 1.3em;
+    padding: 1.25em 0em;
+    margin: 0;
 }
 
 .header-container nav ul li {
     list-style: none;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
 }
 
-p {
-    font-size: 1.25rem;
+.header-container nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 1.25em 1em;
+    background-color: #242038;
+    transition: background-color 0.25s;
+}
+
+.header-container nav ul li a:hover{
+    background-color: #CAC4CE;
+}
+
+.header-container nav ul li a.visited{
+    background-color: #8D86C4;
+}
+
+.content-container, .footer-container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-of-page {
+    display:inline-block;
+    background-color: #8D86C4;
+    color: white;
+    width: 10rem;
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .flex-break {
@@ -63,9 +128,22 @@ p {
 
 .instruction-image img {
     height: 25rem;
+    border: 0.5rem solid #8D86C4;
 }
+
 .instruction-image figcaption {
     text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-style: oblique;
+    background-color: #8D86C4;
+    padding: 0.25rem 0.25rem;
+    color: white;
+}
+
+.instruction-image img, .instruction-image figcaption{
+    box-shadow: 0 0.5rem 2rem rgb(56, 54, 54);
 }
 
 .closing-paragraph{
