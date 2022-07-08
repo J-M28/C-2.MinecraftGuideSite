@@ -89,6 +89,7 @@ h2 {
 }
 
 .top-of-page {
+    font-family: 'Montserrat', sans-serif;
     display:inline-block;
     background-color: #725AC1;
     color: white;
@@ -98,6 +99,7 @@ h2 {
     font-size: 1.5rem;
     text-align: center;
     transition: background-color 0.25s;
+    box-shadow: 0rem 1rem 1rem black;
 }
 
 .top-of-page:hover {
