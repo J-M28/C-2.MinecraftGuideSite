@@ -1,0 +1,324 @@
+/* Google Fonts available as shown
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+/* Site Heading */
+h1 {
+    background-color: #725AC1;
+    color: white;
+    padding: 1.5rem 1rem;
+    margin: 0;
+}
+
+/* Paragraph titles */
+h2 {
+    display: inline-block;
+    color: white;
+    background-color: #725AC1;
+    padding: 0.25rem;
+    box-shadow: 0rem 0.5rem 1rem black;
+
+}
+
+/* Site Navigation Bar*/
+.header-container nav {
+    background-color: #242038;
+    box-shadow: 1rem 0.25rem 4rem black;
+    margin-bottom: 4rem;
+}
+
+.header-container nav ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.3em;
+    padding: 1.25em 0em;
+    margin: 0;
+}
+
+.header-container nav ul li {
+    list-style: none;
+    margin-left: 0.5em;
+}
+
+.header-container nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 1.25em 1em;
+    background-color: #242038;
+    transition: background-color 0.25s;
+}
+
+.header-container nav ul li a:hover{
+    background-color: #CAC4CE;
+}
+
+.header-container nav ul li a.visited{
+    background-color: #8D86C4;
+}
+
+.content-container, .footer-container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Top of page button at the bottom of webpages */
+.top-of-page {
+    font-family: 'Montserrat', sans-serif;
+    display:inline-block;
+    background-color: #725AC1;
+    color: white;
+    width: 10rem;
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 0.25s;
+    box-shadow: 0rem 1rem 1rem black;
+}
+
+.top-of-page:hover {
+    background-color:#8D86C4
+}
+
+/* Used to force a newline in flexbox */
+.flex-break {
+    width: 100%;
+}
+
+/* Quick Start Guide Page */
+
+.world-generation-instruction, .first-night-instruction {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-night-instruction li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+.instruction-paragraph {
+    width: 50%;
+}
+
+.instruction-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+}
+
+.instruction-image img {
+    height: 25rem;
+    border: 0.5rem solid #8D86C4;
+}
+
+.instruction-image figcaption {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-style: oblique;
+    background-color: #8D86C4;
+    padding: 0.25rem 0.25rem;
+    color: white;
+}
+
+.instruction-image img, .instruction-image figcaption{
+    box-shadow: 0 0.5rem 2rem rgb(56, 54, 54);
+}
+
+.closing-paragraph{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Newsletter Page*/
+#form-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#form-content-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+}
+
+.newsletter-fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border: solid 0.75rem #725AC1;
+    box-shadow: 0rem 0.5rem 2rem black;
+}
+
+.newsletter-fieldset legend {
+    font-size: 1.75rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color:#725AC1;
+    box-shadow: 0rem 0.25rem 2rem rgb(112, 111, 111);
+}
+
+.newsletter-fieldset label {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.text-input {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    width: 80%;
+}
+
+.label-under-checkbox {
+    margin-top: 3rem;
+}
+
+.form-footer {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-footer button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 20px;
+    background-color:#725AC1;
+    transition: background-color 0.25s;
+}
+
+.form-footer button:hover {
+    background-color:#8D86C4
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Resources Page */
+.resource-list {
+    background-color:#242038;
+    border-radius: 12px;
+    padding: 5rem;
+    box-shadow: 0rem 1rem 1rem black;
+    list-style: none;
+}
+
+.resource-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    background-color: #242038;
+    transition: background-color 0.25s;
+}
+
+.resource-link:hover {
+    background-color:#725AC1
+}
+
+/* Gallery Page */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 6rem;
+    row-gap: 2rem;
+}
+
+.gallery-grid figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-grid figure img {
+    width: 32rem;
+    border: 0.5rem solid #8D86C4;
+}
+
+.gallery-grid figure figcaption{
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: #8D86C4;
+    color: white;
+}
+
+.gallery-grid figure img, .gallery-grid figure figcaption {
+    box-shadow: 0rem 0.25rem 1rem black;
+}
+
+
+/* About Page */
+#about-content-container {
+    display: flex;
+    margin-top:5rem;
+}
+
+.description-paragraph {
+    width: 95%;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.personal-brand-logo {
+    width: 26rem;
+}
+
+.profile a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #725AC1;
+    color: white;
+    padding: 0.5rem;
+    box-shadow: 0rem 0.5rem 1rem black;
+    transition: background-color 0.25s;
+}
+
+.profile a:hover {
+    background-color: #8D86C4;
+}
