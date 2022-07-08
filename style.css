@@ -237,6 +237,8 @@ footer {
     font-size: 1.5rem;
     color: white;
     text-decoration: none;
+    background-color: #242038;
+    transition: background-color 0.25s;
 }
 
 .resource-link:hover {
