@@ -43,7 +43,7 @@ h2 {
 /* Site Navigation Bar*/
 .header-container nav {
     background-color: #242038;
-    box-shadow: 1rem 1rem 5rem black;
+    box-shadow: 1rem 0.25rem 4rem black;
     margin-bottom: 4rem;
 }
 
@@ -174,10 +174,14 @@ h2 {
 .newsletter-fieldset legend {
     font-size: 1.75rem;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color:#725AC1;
+    box-shadow: 0rem 0.25rem 2rem rgb(112, 111, 111);
 }
 
 .newsletter-fieldset label {
     font-size: 1.25rem;
+    font-weight: 500;
 }
 
 .text-input {
@@ -201,6 +205,14 @@ h2 {
     width: 10rem;
     height: 3rem;
     font-size: 1.5rem;
+    color: white;
+    border-radius: 20px;
+    background-color:#725AC1;
+    transition: background-color 0.25s;
+}
+
+.form-footer button:hover {
+    background-color:#8D86C4
 }
 
 footer {
