@@ -273,6 +273,11 @@ footer {
 .gallery-grid figure img {
     width: 32rem;
     border: 0.5rem solid #8D86C4;
+    transition: border 0.3s;
+}
+
+.gallery-img-link:hover img {
+    border: 0.5rem solid #CAC4CE
 }
 
 .gallery-grid figure figcaption{
