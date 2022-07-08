@@ -9,9 +9,12 @@ The site provides user with information on how to survive their "first night" in
 - Drafting a wireframe in Figma to aid in more quickly and effectively deploying a site that satisfies requirements
 - Planning CSS to aid in how fast the site is created
 - Using git branches to implement changes, thereby creating a clearer commit history and securely applying changes without affecting stable releases
+- Workflow for creating web-projects (wireframing, CSS planning, HTML layout only, CSS to stylize)
 - Semantic HTML: heading tags (h1,h2...h6), paragraphs, lists, navigation, forms, etc
 - HTML Forms
-- Workflow for creating web-projects (wireframing, CSS planning, HTML layout only, CSS to stylize)
+- CSS Grid and CSS Flexbox
+- How to host a live site on Netlify
+
 
 ## How to Use
 
