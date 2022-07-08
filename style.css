@@ -88,6 +88,7 @@ h2 {
     align-items: center;
 }
 
+/* Top of page button at the bottom of webpages */
 .top-of-page {
     font-family: 'Montserrat', sans-serif;
     display:inline-block;
@@ -106,11 +107,13 @@ h2 {
     background-color:#8D86C4
 }
 
+/* Used to force a newline in flexbox */
 .flex-break {
     width: 100%;
 }
 
 /* Quick Start Guide Page */
+
 .world-generation-instruction, .first-night-instruction {
     display: flex;
     flex-wrap: wrap;
@@ -239,8 +242,6 @@ footer {
     list-style: none;
 }
 
-
-
 .resource-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -293,7 +294,7 @@ footer {
 }
 
 .description-paragraph {
-    width: 80%;
+    width: 95%;
 }
 
 .profile {
