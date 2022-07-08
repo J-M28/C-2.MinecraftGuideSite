@@ -2,7 +2,7 @@
 ## Header font
 'Montserrat Subrayada', sans-serif
 
-## Body font 
+## Body font
 'Robot', sans-serif
 
 ## Colors Pallette
@@ -12,46 +12,37 @@
 - French Bistre (#8C7051)
 - Red Crayola (#EF3054)
 
-![color-pallette-visual](./mc-quick-start-color-palette.png)
+![color-pallette-visual](./mc-guide-color-palette.png)
 
-## CSS Classes 
+## CSS Classes
 
-**class="headers"**  
-h1, h2, h3  
-Font: "header font" (refer to above)  
+**class="headers"**
+h1, h2, h3
+Font: "header font" (refer to above)
 Font-Color: Hunter Green
 
-**class="navigation"**  
-ul / li navigation bar  
-Font: "body font" (refer to above)  
+**class="navigation"**
+ul / li navigation bar
+Font: "body font" (refer to above)
 Font-Color: White
-Active underline: 
+Active underline:
 Background-color: French Bistre
 
-**class="content"**  
-p  
-Font: "body font" (refer to above)  
-Font-color: Dark Olive-Green 
-**class="user-form"**   
-form/fieldset   
-Font: "body font" (refer to above)  
+**class="content"**
+p
+Font: "body font" (refer to above)
+Font-color: Dark Olive-Green
+**class="user-form"**
+form/fieldset
+Font: "body font" (refer to above)
 Font-color: Dark Olive-green
 
-**class="resource-list"**   
-ul / li resources page  
-Font: "body font" (refer to above)  
+**class="resource-list"**
+ul / li resources page
+Font: "body font" (refer to above)
 Font-color: Dark Olive-green
 
-**class="gallery-caption"**  
-figcaption   
+**class="gallery-caption"**
+figcaption
 Font: "body font" (refer to above)
 Background-Color: French Bistre
-
-
-
-
-
-
-
-
-
