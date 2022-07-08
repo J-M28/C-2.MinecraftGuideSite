@@ -90,13 +90,18 @@ h2 {
 
 .top-of-page {
     display:inline-block;
-    background-color: #8D86C4;
+    background-color: #725AC1;
     color: white;
     width: 10rem;
     text-decoration: none;
     font-style: oblique;
     font-size: 1.5rem;
     text-align: center;
+    transition: background-color 0.25s;
+}
+
+.top-of-page:hover {
+    background-color:#8D86C4
 }
 
 .flex-break {
