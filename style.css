@@ -260,11 +260,18 @@ footer {
 
 .gallery-grid figure img {
     width: 32rem;
+    border: 0.5rem solid #8D86C4;
 }
 
 .gallery-grid figure figcaption{
     text-align: center;
     font-size: 1.25rem;
+    background-color: #8D86C4;
+    color: white;
+}
+
+.gallery-grid figure img, .gallery-grid figure figcaption {
+    box-shadow: 0rem 0.25rem 1rem black;
 }
 
 
